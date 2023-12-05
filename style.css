@@ -1,0 +1,137 @@
+body {
+    /*background-size: cover;
+     /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+     /*background-repeat: no-repeat;
+     /* Evita repetição da imagem */
+     background-image: url(https://img.freepik.com/vetores-gratis/estilo-de-papel-de-fundo-branco-monocromatico_23-2148999903.jpg?w=740&t=st=1701434360~exp=1701434960~hmac=3750dd83331952c3818ba8c247c173d86d410b287d84d02031b098795cf31357);
+background-size: cover;
+background-repeat: no-repeat;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Orbitron', sans-serif;
+ }
+
+ #hora-Atual {
+     text-align: center;
+     font-size: 40px;
+     /* Ajuste o tamanho da fonte como desejado */
+     color: rgb(248, 4, 4);
+     /* Ajuste a cor do texto como desejado */
+
+
+ }
+
+ h3 {
+     color: rgb(7, 7, 7);
+     font-size: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ p {
+     font-size: 25px;
+
+ }
+
+ .rede {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     display: inline-block;
+     font-size: 20px;
+ }
+
+ button {
+     color: rgb(234, 19, 195);
+     border-color: rgb(232, 23, 176)255, 0, 119);
+     border-radius: 50px;
+     font-size: 20px;
+     display: inline-block;
+     padding: 10px 20px;
+     font-weight: bold;
+     cursor: pointer;
+
+
+ }
+
+ .conteiner {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+     padding-top: 2rem;
+     height: 100vh;
+
+
+ }
+
+ h1 {
+     color: rgb(242, 9, 9)
+ }
+
+ .timer {
+     display: flex;
+     font-size: 55px;
+     font-weight: bold;
+     color: rgb(245, 86, 86);
+ }
+
+ .time {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 10px;
+     color: rgb(238, 11, 11);
+     min-width: 90px;
+
+ }
+
+ .separator {
+     padding: 10px;
+     color: rgb(242, 7, 7);
+ }
+
+ #milliseconds {
+     font-size: 45px;
+     color: rgb(225, 116, 116);
+ }
+
+ .buttons {
+     display: flex;
+     gap: 1rem;
+ }
+
+
+ .btn {
+     display: inline-block;
+     padding: 10px 20px;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 30px;
+     cursor: pointer;
+     border: 1px solid rgb(10, 10, 11);
+     transition: all 0.2s ease-in-out;
+ }
+
+ .btn:hover {
+     transform: scale(1.1);
+ }
+
+ #startbtn {
+     background-color: rgb(4, 245, 104);
+     color: rgb(4, 4, 4);
+
+ }
+
+ #resetbtn {
+     background-color: rgb(4, 245, 104);
+
+
+ }
+
+ #pausebtn,
+ #continuarbtn {
+     display: none;
+ }
